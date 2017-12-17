@@ -1,0 +1,33 @@
+{
+  "name": "iniziativa",
+  "version": "1.0.0",
+  "description": "initiative sorter for D&D game masters",
+  "main": "index.htm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronRunes/iniziativa.git"
+  },
+  "keywords": [
+    "dungeons",
+    "and",
+    "dragons",
+    "dnd",
+    "initiative"
+  ],
+  "author": "Alan Zard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/IronRunes/iniziativa/issues"
+  },
+  "homepage": "https://github.com/IronRunes/iniziativa#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
