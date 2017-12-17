@@ -21,10 +21,45 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+          <h1>Tirate l'Iniziativa!<br /><small>minitool per il sorting automatico dell'ordine di attivazione dei personaggi nei giochi di ruolo</small></h1>
+        </div>
+      </header>
+      <section class="row">
+
+        <form class="initiative-sort col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+        </form>
+
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+          <button class="btn btn-primary add-entry">Aggiungi Combattente</button>
+        </div>
+
+      </section>
+
+
+    </div>
+
+    <div class="row initiative-entry clone-source hidden" data-sorter="">
+      <div class="col-md-1 col-sm-1 col-xs-1 ordinal"></div>
+      <div class="col-md-9 col-sm-9 col-xs-8">
+        <div class="form-group">
+          <input name="" id="" value="" class="form-control" placeholder="">
+        </div>
+      </div>
+
+      <div class="col-md-2 col-sm-2 col-xs-3">
+        <div class="form-group">
+          <input name="" id="" value="" class="form-control initiative" placeholder="">
+        </div>
+      </div>
+    </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="assets/components/bootstrap/dist/js/jquery.min.js"></script>
+    <script src="assets/components/jquery/dist/jquery.min.js"></script>
     <script src="assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/js/iniziativa.min.js"></script>
   </body>
